@@ -6,6 +6,10 @@ options:
   usesTabs: false
   tabWidth: 2
   indentWidth: 2
+  defaultConfig: Release
+
+fileGroups:
+  - main.jsbundle
 
 settings:
   base:
@@ -33,9 +37,11 @@ targets:
     type: application
     platform: iOS
     sources:
-      - path: MyProject
-      # - path: main.jsbundle
-        # optional: true
+      - MyProject
+    dependencies:
+      - framework: JavascriptCore.framework
+        embed: false
+        link: false
     scheme:
       parallelizeBuild: false
     settings:
@@ -46,6 +52,9 @@ targets:
           - $(inherited)
           - -ObjC
           - -lc++
+        FRAMEWORK_SEARCH_PATHS:
+        - $(inherited)
+        - FB_SONARKIT_ENABLED=1
     preBuildScripts:
       - name: Start Packager
         script: |

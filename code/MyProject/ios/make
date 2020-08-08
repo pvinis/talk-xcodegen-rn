@@ -1,5 +1,9 @@
+touch main.jsbundle
 xcodegen generate
 # xunique -u MyProject.xcodeproj
 # xcodeproj sort
+rm -rf main.jsbundle
 
+xunique MyProject.xcodeproj
 pod install
+xunique MyProject.xcodeproj
