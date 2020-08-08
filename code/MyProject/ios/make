@@ -4,6 +4,6 @@ xcodegen generate
 # xcodeproj sort
 rm -rf main.jsbundle
 
-xunique MyProject.xcodeproj
+# xunique MyProject.xcodeproj
 pod install
 xunique MyProject.xcodeproj
