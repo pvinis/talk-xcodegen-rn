@@ -7,26 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */; };
-		E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */; };
 		030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */; };
 		3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */; };
+		C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */; };
 		CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */; };
+		E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7776AD073DB10CB12310A5B305EFFA7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyProject/Info.plist; sourceTree = "<group>"; };
+		5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
 		5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 		5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyProject/AppDelegate.h; sourceTree = "<group>"; };
 		629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyProject/AppDelegate.m; sourceTree = "<group>"; };
+		662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyProject/main.m; sourceTree = "<group>"; };
+		7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
 		7ADFD96825B5C6C6EA8745A5DE54A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyProject/Images.xcassets; sourceTree = "<group>"; };
-		59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyProject/Info.plist; sourceTree = "<group>"; };
-		662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyProject/main.m; sourceTree = "<group>"; };
-		5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
-		2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyProject/AppDelegate.h; sourceTree = "<group>"; };
+		F7776AD073DB10CB12310A5B305EFFA7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03105283612BD01B56117564D1BB87B3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */,
+				5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6FF1220501BB36F3BB67C89076EADC54 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
@@ -55,13 +64,13 @@
 			name = MyProject;
 			sourceTree = "<group>";
 		};
-		03105283612BD01B56117564D1BB87B3 /* Frameworks */ = {
+		82DBBD6F4AE0999C2B5C9156DC74BFFA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */,
-				5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */,
+				5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */,
+				7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */,
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		BADF510FA065D4B5A57555EE183B45F9 /* Libraries */ = {
@@ -91,15 +100,6 @@
 				5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		82DBBD6F4AE0999C2B5C9156DC74BFFA /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */,
-				7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,20 +169,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		94917E6FF7B1FA7731C0667A6BE64577 /* Bundle React Native code and images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native code and images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
 		8D35FD00B391C5F920772258C1C4ACD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +210,20 @@
 			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		94917E6FF7B1FA7731C0667A6BE64577 /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -251,33 +251,6 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7091D8990627F1E4E9458350D6EE7D68 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_BITCODE = NO;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"$(inherited)",
-					"FB_SONARKIT_ENABLED=1",
-				);
-				INFOPLIST_FILE = MyProject/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					"-ObjC",
-					"-lc++",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = MyProject;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				VERSIONING_SYSTEM = "apple-generic";
-			};
-			name = Debug;
-		};
 		51E36F07EBFE560479212972A70C597C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */;
@@ -359,6 +332,33 @@
 			};
 			name = Debug;
 		};
+		7091D8990627F1E4E9458350D6EE7D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_BITCODE = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"FB_SONARKIT_ENABLED=1",
+				);
+				INFOPLIST_FILE = MyProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = MyProject;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
 		728312E2166C6CAED88FFA7FB49D5463 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,20 +415,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		514165D5C236F478C277D67B64A63C5B /* Build configuration list for PBXNativeTarget "MyProject" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7091D8990627F1E4E9458350D6EE7D68 /* Debug */,
-				51E36F07EBFE560479212972A70C597C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		284D4E30141A0AAA3ABFCEB17825B4FD /* Build configuration list for PBXProject "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				56E1BF89B711618EB02D6AA8282D6E45 /* Debug */,
 				728312E2166C6CAED88FFA7FB49D5463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		514165D5C236F478C277D67B64A63C5B /* Build configuration list for PBXNativeTarget "MyProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7091D8990627F1E4E9458350D6EE7D68 /* Debug */,
+				51E36F07EBFE560479212972A70C597C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
