@@ -3,38 +3,38 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */; };
-		3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */; };
-		C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */; };
-		CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */; };
-		E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */; };
+		14265C93261FBFC7CC3D7409 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7249BF8DD2A6ACA966CDF09E /* LaunchScreen.xib */; };
+		2257F3DA3FD0E9B63CAB52DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A3C34C3EACD50ECF591283E /* Images.xcassets */; };
+		3538A273439675C3A4B4BB4D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB41CB383AE5E4C7A918AA5 /* AppDelegate.m */; };
+		4130FE4EF2EFE4B7500A16A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D65DCBED37683D8298C8364 /* main.m */; };
+		FF583FB85E5F699EC0F2001B /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 152A657E98F237F94402BE71 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyProject/Info.plist; sourceTree = "<group>"; };
-		5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
-		5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyProject/AppDelegate.m; sourceTree = "<group>"; };
-		662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyProject/main.m; sourceTree = "<group>"; };
-		7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
-		7ADFD96825B5C6C6EA8745A5DE54A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyProject/Images.xcassets; sourceTree = "<group>"; };
-		D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyProject/AppDelegate.h; sourceTree = "<group>"; };
 		F7776AD073DB10CB12310A5B305EFFA7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		152A657E98F237F94402BE71 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E118E53B29DAF00D33E845F /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		4A3C34C3EACD50ECF591283E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55C3297C4ED84291C0302F6B /* MyProject.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BB41CB383AE5E4C7A918AA5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6F0032051681575BD7E9C629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		790F3276C507CDC612AF339E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9D65DCBED37683D8298C8364 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A49769FF67B0FBA5A9401650 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
+		A804C8AC342C593CAECAD2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C29CD13214C4C889FA5B5EEE4167085D /* Frameworks */ = {
+		DE90CA32129E5FDE6582A7AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */,
+				FF583FB85E5F699EC0F2001B /* libPods-MyProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
