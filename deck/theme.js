@@ -1,10 +1,7 @@
-import { Provider } from './components/provider'
-
 import { accent, background, text } from './colors'
 
 
 export const myTheme = {
-    Provider,
     fonts: {
         heading: 'Iosevka Web, Iosevka',
         body: 'Iosevka Web, Iosevka',
@@ -13,7 +10,8 @@ export const myTheme = {
     colors: {
         text,
         background,
-        primary: 'red',
+		primary: 'red',
+		accent,
     },
     styles: {
         root: {

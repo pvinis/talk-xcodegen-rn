@@ -4,11 +4,12 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-      "start": "mdx-deck deck.mdx",
-      "site": "mdx-deck build deck.mdx; rm -rf docs; mv public docs",
-      "pdf": "npx website-pdf http://localhost:8000//print -o talk.pdf"
+    "start": "mdx-deck deck.mdx",
+    "site": "mdx-deck build deck.mdx; rm -rf docs; mv public docs",
+    "pdf": "npx website-pdf http://localhost:8000//print -o talk.pdf"
   },
   "dependencies": {
+    "@mdx-deck/themes": "^4.1.0",
     "mdx-deck": "^4.1.1"
   },
   "devDependencies": {

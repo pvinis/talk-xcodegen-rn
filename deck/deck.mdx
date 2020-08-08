@@ -1,42 +1,57 @@
-import { Notes, Head, Appear, themes, Split } from 'mdx-deck'
+import { Notes, Head, Footer, Appear, Split, useDeck } from 'mdx-deck'
+import { Box, Link, Flex, Styled } from 'theme-ui'
 
-// import { RAppear } from './components/reverse-appear'
+import { Counter } from './components/counter'
 import { myTheme } from './theme'
-// import myFace from './images/my-face2.png'
-// import myFace2 from './images/my-face.png'
-// import howbow from './images/howbow.jpg'
-// import howbow2 from './images/howbow.webp'
-// import laravel from './screenshots/laravel.png'
-// import old1 from './screenshots/rn-diff-old-1.png'
-// import old2 from './screenshots/rn-diff-old-2.png'
-// import purge1 from './screenshots/rn-diff-purge-1.png'
-// import purge2 from './screenshots/rn-diff-purge-2.png'
-// import helper1 from './screenshots/upgrade-helper-1.png'
-// import helper2 from './screenshots/upgrade-helper-2.png'
-// import helper3 from './screenshots/upgrade-helper-3.png'
-
-
 export const theme = myTheme
+
 
 <Head>
 	<link href="https://pvinis.github.io/iosevka-webfont/2.3.0/webfont.css" rel="stylesheet" />
 </Head>
 
 
-# Upgrading React Native projects
+<Footer>
+
+<Flex sx={{
+	position: 'absolute',
+	left: 0,
+	right: 0,
+	bottom: 0,
+	height: 40,
+	borderTop: `${theme.colors.accent} solid 1px`,
+	flexDirection: "row",
+	alignItems: 'center',
+	justifyContent: "space-around",
+}}>
+
+<Counter />
+
+React Native EU 2020
+
+Pavlos Vinieratos
+
+@pvinis
+
+</Flex>
+
+</Footer>
+
+
+# Xcode complexity? No more.
 
 ## with Pavlos Vinieratos
 
-#### React Native EU <br /> Wroclaw, Poland
+#### React Native EU @ your screen, your house
 
-#### 6 September 2019
+#### August 2020
 
 <Notes>
 
-ready for the upgrade talk? many mentioned it
-
-first talk, thanks to RN EU!
-
-summary. past etc, tips
+second talk, thanks to RN EU again!
 
 </Notes>
+
+---
+
+# test
