@@ -7,97 +7,97 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
-		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
-		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		F8B30AD4F701973E2C4711AC /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 05B89F842DE7211D331AA7D7 /* libPods-MyProject.a */; };
+		C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */; };
+		E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */; };
+		030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */; };
+		3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */; };
+		CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
-		05B89F842DE7211D331AA7D7 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		06D6B5DFBD9079E70D9FE083 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyProject/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyProject/AppDelegate.m; sourceTree = "<group>"; };
-		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyProject/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyProject/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyProject/main.m; sourceTree = "<group>"; };
-		6FD4124B8172C2830F0D09E2 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
-		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F7776AD073DB10CB12310A5B305EFFA7 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
+		5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyProject/AppDelegate.h; sourceTree = "<group>"; };
+		629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyProject/AppDelegate.m; sourceTree = "<group>"; };
+		7ADFD96825B5C6C6EA8745A5DE54A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyProject/Images.xcassets; sourceTree = "<group>"; };
+		59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyProject/Info.plist; sourceTree = "<group>"; };
+		662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyProject/main.m; sourceTree = "<group>"; };
+		5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.debug.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.debug.xcconfig"; sourceTree = "<group>"; };
+		2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+		C29CD13214C4C889FA5B5EEE4167085D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B30AD4F701973E2C4711AC /* libPods-MyProject.a in Frameworks */,
+				CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13B07FAE1A68108700A75B9A /* MyProject */ = {
+		6FF1220501BB36F3BB67C89076EADC54 /* MyProject */ = {
 			isa = PBXGroup;
 			children = (
-				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
-				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				13B07FB51A68108700A75B9A /* Images.xcassets */,
-				13B07FB61A68108700A75B9A /* Info.plist */,
-				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
-				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
-				13B07FB71A68108700A75B9A /* main.m */,
+				D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */,
+				629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */,
+				B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */,
+				59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */,
+				8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */,
+				F7776AD073DB10CB12310A5B305EFFA7 /* main.jsbundle */,
+				662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */,
 			);
 			name = MyProject;
 			sourceTree = "<group>";
 		};
-		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+		03105283612BD01B56117564D1BB87B3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				05B89F842DE7211D331AA7D7 /* libPods-MyProject.a */,
+				2A035F184A2D47E9E087696073CF1C24 /* JavaScriptCore.framework */,
+				5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+		BADF510FA065D4B5A57555EE183B45F9 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Libraries;
 			sourceTree = "<group>";
 		};
-		83CBB9F61A601CBA00E9B192 = {
+		BC3CA93F2AE0EAC1B2B0983D71404B8B = {
 			isa = PBXGroup;
 			children = (
-				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				13B07FAE1A68108700A75B9A /* MyProject */,
-				B9EA3E2F6A23E570DC5686C3 /* Pods */,
-				83CBBA001A601CBA00E9B192 /* Products */,
+				03105283612BD01B56117564D1BB87B3 /* Frameworks */,
+				BADF510FA065D4B5A57555EE183B45F9 /* Libraries */,
+				6FF1220501BB36F3BB67C89076EADC54 /* MyProject */,
+				82DBBD6F4AE0999C2B5C9156DC74BFFA /* Pods */,
+				C9444A75A803A71731F15BB67A408FDA /* Products */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
 			tabWidth = 2;
 			usesTabs = 0;
 		};
-		83CBBA001A601CBA00E9B192 /* Products */ = {
+		C9444A75A803A71731F15BB67A408FDA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* MyProject.app */,
+				5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9EA3E2F6A23E570DC5686C3 /* Pods */ = {
+		82DBBD6F4AE0999C2B5C9156DC74BFFA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6FD4124B8172C2830F0D09E2 /* Pods-MyProject.debug.xcconfig */,
-				06D6B5DFBD9079E70D9FE083 /* Pods-MyProject.release.xcconfig */,
+				5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */,
+				7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -105,16 +105,16 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		13B07F861A680F5B00A75B9A /* MyProject */ = {
+		5EDCA06D7875DE984BA3B08593B120B7 /* MyProject */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyProject" */;
+			buildConfigurationList = 514165D5C236F478C277D67B64A63C5B /* Build configuration list for PBXNativeTarget "MyProject" */;
 			buildPhases = (
-				6C0A0E5ED7D35376E817CA5A /* [CP] Check Pods Manifest.lock */,
-				FD10A7F022414F080027D42C /* Start Packager */,
-				13B07F871A680F5B00A75B9A /* Sources */,
-				13B07F8C1A680F5B00A75B9A /* Frameworks */,
-				13B07F8E1A680F5B00A75B9A /* Resources */,
-				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				8D35FD00B391C5F920772258C1C4ACD5 /* [CP] Check Pods Manifest.lock */,
+				8E0EBEF6139A0A1B53E8BA4955CD3522 /* Start Packager */,
+				DB0CAAE385633C1EBFABDA16D0EE8500 /* Sources */,
+				C29CD13214C4C889FA5B5EEE4167085D /* Frameworks */,
+				EFB3D6CB682B47D379C35B791818888C /* Resources */,
+				94917E6FF7B1FA7731C0667A6BE64577 /* Bundle React Native code and images */,
 			);
 			buildRules = (
 			);
@@ -122,23 +122,23 @@
 			);
 			name = MyProject;
 			productName = MyProject;
-			productReference = 13B07F961A680F5B00A75B9A /* MyProject.app */;
+			productReference = 5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+		D291BCD95454AAA54DF42886E5A2B0F4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1130;
 				TargetAttributes = {
-					13B07F861A680F5B00A75B9A = {
+					5EDCA06D7875DE984BA3B08593B120B7 = {
 						LastSwiftMigration = 1120;
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyProject" */;
+			buildConfigurationList = 284D4E30141A0AAA3ABFCEB17825B4FD /* Build configuration list for PBXProject "MyProject" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -146,30 +146,30 @@
 				en,
 				Base,
 			);
-			mainGroup = 83CBB9F61A601CBA00E9B192;
-			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			mainGroup = BC3CA93F2AE0EAC1B2B0983D71404B8B;
+			productRefGroup = C9444A75A803A71731F15BB67A408FDA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* MyProject */,
+				5EDCA06D7875DE984BA3B08593B120B7 /* MyProject */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+		EFB3D6CB682B47D379C35B791818888C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */,
+				E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+		94917E6FF7B1FA7731C0667A6BE64577 /* Bundle React Native code and images */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -183,7 +183,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		6C0A0E5ED7D35376E817CA5A /* [CP] Check Pods Manifest.lock */ = {
+		8D35FD00B391C5F920772258C1C4ACD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -205,7 +205,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FD10A7F022414F080027D42C /* Start Packager */ = {
+		8E0EBEF6139A0A1B53E8BA4955CD3522 /* Start Packager */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -227,22 +227,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		13B07F871A680F5B00A75B9A /* Sources */ = {
+		DB0CAAE385633C1EBFABDA16D0EE8500 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */,
+				3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+		8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				13B07FB21A68108700A75B9A /* Base */,
+				7ADFD96825B5C6C6EA8745A5DE54A812 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			path = MyProject;
@@ -251,9 +251,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		13B07F941A680F5B00A75B9A /* Debug */ = {
+		7091D8990627F1E4E9458350D6EE7D68 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6FD4124B8172C2830F0D09E2 /* Pods-MyProject.debug.xcconfig */;
+			baseConfigurationReference = 5B61BBB179308E35CD69582AF3CBC715 /* Pods-MyProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -278,9 +278,9 @@
 			};
 			name = Debug;
 		};
-		13B07F951A680F5B00A75B9A /* Release */ = {
+		51E36F07EBFE560479212972A70C597C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06D6B5DFBD9079E70D9FE083 /* Pods-MyProject.release.xcconfig */;
+			baseConfigurationReference = 7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -299,7 +299,7 @@
 			};
 			name = Release;
 		};
-		83CBBA201A601CBA00E9B192 /* Debug */ = {
+		56E1BF89B711618EB02D6AA8282D6E45 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -359,7 +359,7 @@
 			};
 			name = Debug;
 		};
-		83CBBA211A601CBA00E9B192 /* Release */ = {
+		728312E2166C6CAED88FFA7FB49D5463 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -415,25 +415,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyProject" */ = {
+		514165D5C236F478C277D67B64A63C5B /* Build configuration list for PBXNativeTarget "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
-				13B07F951A680F5B00A75B9A /* Release */,
+				7091D8990627F1E4E9458350D6EE7D68 /* Debug */,
+				51E36F07EBFE560479212972A70C597C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "MyProject" */ = {
+		284D4E30141A0AAA3ABFCEB17825B4FD /* Build configuration list for PBXProject "MyProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CBBA201A601CBA00E9B192 /* Debug */,
-				83CBBA211A601CBA00E9B192 /* Release */,
+				56E1BF89B711618EB02D6AA8282D6E45 /* Debug */,
+				728312E2166C6CAED88FFA7FB49D5463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+	rootObject = D291BCD95454AAA54DF42886E5A2B0F4 /* Project object */;
 }
