@@ -1,0 +1,5 @@
+xcodegen generate
+xunique -u MyProject.xcodeproj
+xcodeproj sort
+
+pod install
