@@ -1,0 +1,19 @@
+{
+  "name": "deck",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+      "start": "mdx-deck deck.mdx",
+      "site": "mdx-deck build deck.mdx; rm -rf docs; mv public docs",
+      "pdf": "npx website-pdf http://localhost:8000//print -o talk.pdf"
+  },
+  "dependencies": {
+    "mdx-deck": "^4.1.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-plugin-mdx": "^1.8.1",
+    "eslint-plugin-react": "^7.20.5"
+  }
+}
