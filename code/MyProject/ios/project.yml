@@ -52,9 +52,12 @@ targets:
           - $(inherited)
           - -ObjC
           - -lc++
-        FRAMEWORK_SEARCH_PATHS:
-        - $(inherited)
-        - FB_SONARKIT_ENABLED=1
+      configs:
+        Debug:
+          ENABLE_BITCODE: false
+          GCC_PREPROCESSOR_DEFINITIONS:
+            - $(inherited)
+            - FB_SONARKIT_ENABLED=1
     preBuildScripts:
       - name: Start Packager
         script: |
