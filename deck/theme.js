@@ -1,21 +1,20 @@
 import { accent, background, text } from './colors'
 
 
+const font = 'Iosevka Web'
+
 export const myTheme = {
     fonts: {
-        heading: 'Iosevka Web, Iosevka',
-        body: 'Iosevka Web, Iosevka',
-        monospace: 'Iosevka Web, Iosevka',
+        heading: font,
+        body: font,
     },
     colors: {
         text,
         background,
-		primary: 'red',
 		accent,
     },
     styles: {
         root: {
-            fontFamily: 'Iosevka Web, Iosevka',
             fontWeight: 300, // light
         },
         h1: {
@@ -37,6 +36,7 @@ export const myTheme = {
         },
         inlineCode: {
             color: accent,
+			fontFamily: font,
         },
         code: {
             color: accent,
@@ -47,6 +47,6 @@ export const myTheme = {
         },
         p: {
             textAlign: 'center',
-        },
+		},
     },
 }

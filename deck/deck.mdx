@@ -3,11 +3,14 @@ import { Box, Link, Flex, Styled } from 'theme-ui'
 
 import { Counter } from './components/counter'
 import { myTheme } from './theme'
+
+import myFace2 from "./images/my-face2.png"
+
 export const theme = myTheme
 
 
 <Head>
-	<link href="https://pvinis.github.io/iosevka-webfont/2.3.0/webfont.css" rel="stylesheet" />
+	<link href="https://pvinis.github.io/iosevka-webfont/3.4.1/iosevka.css" rel="stylesheet" />
 </Head>
 
 
@@ -54,7 +57,47 @@ second talk, thanks to RN EU again!
 
 ---
 
+<Split>
+
+<img src={myFace2} />
+
+I'm `Pavlos`.
+
+`pvinis` on almost everything online.
+
+I work with `Artsy` making great stuff.
+
+<Appear>
+<div>
+
+I love `upgrading`!
+
+I am involved with:
+
+- `rn-diff-purge`
+- `upgrade-helper`
+- `react-native` PRs
+
+</div>
+</Appear>
+
+</Split>
+
+<Notes>
+
+latest version, alpha, beta
+
+PR with creative names like `Crash Heaven`
+
+</Notes>
+
+---
+
+
+Lat
 test
+
+---
 
 talk about xcode and xcodegen
 
@@ -67,14 +110,24 @@ xcodegen makes this declarative. imagine project.yml is package.json and xcodepr
   - npx react-native init MyProject --version 0.62.0
   - brew install xcodegen
   - we need to create a yml. there is an issue and pr to have this automated, but not yet there. you could grab the template i will make. per version
+  https://github.com/yonaskolb/XcodeGen/pull/735
+  https://github.com/pvinis/react-native-xcodegen
   - make file
+  - touch MyProject/main.jsbundle
   - maybe a package.json script to run the xcodegen thing?
 
 
 
 
 - how do i use it with upgrades if its not supported
+go to my repo
+otherwise check the upgrade-helper xcodeproj diffs
+
 
 - how do i use it with upgrades if it is supported
 
+- how do i do changes in xcode and save them in yml?
+
 - make a PR on react native? also pr for https://github.com/yonaskolb/XcodeGen/blob/master/Docs/Examples.md?
+
+- make a repo react-native-xcodegen and link to the talk repo, list the project.yml for all versions of RN, open issues.
