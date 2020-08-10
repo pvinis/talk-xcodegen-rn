@@ -9,6 +9,10 @@ target 'MyProject' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
+  permissions_path = '../node_modules/react-native-permissions/ios'
+  pod 'Permission-Microphone', :path => "#{permissions_path}/Microphone.podspec"
+
   # Enables Flipper.
   #
   # Note that if you have use_frameworks! enabled, Flipper will not work and
