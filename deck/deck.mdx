@@ -1,10 +1,11 @@
 import { Notes, Head, Footer, Appear, Split, useDeck } from 'mdx-deck'
 import { Box, Link, Flex, Styled } from 'theme-ui'
 
-import { Counter } from './components/counter'
+import { Counter } from './components/Counter'
+import { AboveFooter } from './components/AboveFooter'
 import { myTheme } from './theme'
 
-import {myFace2, diff1, diff2, diff3 } from "./images"
+import { myFace2, diff1, diff2, diff3, xcode1 } from "./images"
 
 export const theme = myTheme
 
@@ -77,27 +78,44 @@ Especially coming from `web` or `native Android`.
 
 ---
 
-</Split>
+### Why
+
+- It's an `unknown`/`unfamilar` tool.
+- Almost all settings need to be edited `using Xcode UI`.
+- Its `file format` is not very friendly.
 
 <Notes>
-
-latest version, alpha, beta
-
-PR with creative names like `Crash Heaven`
-
+If you have native iOS devs in your team,
+probably they know how to handle Xcode and its settings and file diffs,
+but it's definitely not as intuitive as `package.json`
 </Notes>
 
 ---
 
+<AboveFooter>
+	<img src={diff1} />
+</AboveFooter>
 
-Lat
-test
+---
+
+Wouldn't it be nice to be like `package.json`?
+
+---
+
+### React Native `Core` and `Community` are working hard.
+
+Besides the many improvments and new features shipped, `tooling` has been getting better:
+- `CocoaPods` was added, making manual `linking` a thing of the past.
+- `upgrade-helper` was created, making manual `upgrading` easier.
+
+---
+
+I've had this idea for a while, to
 
 ---
 
 talk about xcode and xcodegen
 
-xcode is hard, complicated
 
 https://github.com/yonaskolb/XcodeGen
 xcodegen makes this declarative. imagine project.yml is package.json and xcodeproj is yarn.lock.
