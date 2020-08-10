@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */; };
 		3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */; };
+		7D67DE68D44E39D646D62D24D30CD8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F584960A869FB2AFA52C9E17C635E80B /* LaunchScreen.storyboard */; };
 		C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */; };
 		CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */; };
-		E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,9 +24,9 @@
 		629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
-		7ADFD96825B5C6C6EA8745A5DE54A812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F584960A869FB2AFA52C9E17C635E80B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,7 @@
 				629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */,
 				B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */,
 				59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */,
-				8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */,
+				F584960A869FB2AFA52C9E17C635E80B /* LaunchScreen.storyboard */,
 				662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */,
 			);
 			path = MyProject;
@@ -108,6 +108,7 @@
 				EFB3D6CB682B47D379C35B791818888C /* Resources */,
 				7711570936A18312460A0E222FFE981D /* Bundle React Native code and images */,
 				C29CD13214C4C889FA5B5EEE4167085D /* Frameworks */,
+				AAAD096A769A281BB019879F2DA736A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,7 +134,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				Base,
+				en,
 			);
 			mainGroup = BC3CA93F2AE0EAC1B2B0983D71404B8B;
 			productRefGroup = C9444A75A803A71731F15BB67A408FDA /* Products */;
@@ -151,50 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */,
-				E18E9BA03F73037B9803614B0A3C5A42 /* LaunchScreen.xib in Resources */,
+				7D67DE68D44E39D646D62D24D30CD8CB /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E0EBEF6139A0A1B53E8BA4955CD3522 /* Start Packager */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Start Packager";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7711570936A18312460A0E222FFE981D /* Bundle React Native code and images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native code and images";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
-		};
 		8D35FD00B391C5F920772258C1C4ACD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -217,6 +181,60 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		8E0EBEF6139A0A1B53E8BA4955CD3522 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AAAD096A769A281BB019879F2DA736A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyProject/Pods-MyProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7711570936A18312460A0E222FFE981D /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -230,17 +248,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		8A6F0FB987E17A919DDEE4B5CF67F1A7 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7ADFD96825B5C6C6EA8745A5DE54A812 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		51E36F07EBFE560479212972A70C597C /* Release */ = {
@@ -321,7 +328,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -417,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
