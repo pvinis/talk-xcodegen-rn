@@ -93,12 +93,26 @@ but it's definitely not as intuitive as `package.json`
 ---
 
 <AboveFooter>
+	<img src={xcode1} />
+</AboveFooter>
+
+---
+
+<AboveFooter>
 	<img src={diff1} />
 </AboveFooter>
 
 ---
 
-Wouldn't it be nice to be like `package.json`?
+<AboveFooter>
+	<img src={diff2} />
+</AboveFooter>
+
+---
+
+<AboveFooter>
+	<img src={diff3} />
+</AboveFooter>
 
 ---
 
@@ -110,17 +124,43 @@ Besides the many improvments and new features shipped, `tooling` has been gettin
 
 ---
 
-I've had this idea for a while, to
+I've had this idea for a while:
+
+Wouldn't it be nice if my Xcode project was more like `package.json`?
 
 ---
 
-talk about xcode and xcodegen
-
+`XcodeGen` is here to save the day!
 
 https://github.com/yonaskolb/XcodeGen
-xcodegen makes this declarative. imagine project.yml is package.json and xcodeproj is yarn.lock.
 
-- how do i set it up
+---
+
+It can generate an Xcode project from a `project.yml` file.
+
+Imagine `project.yml` is `package.json` and `MyProject.xcodeproj` is `yarn.lock`.
+
+---
+
+Visit https://github.com/pvinis/react-native-xcodegen to get set up.
+
+Steps:
+- Install `xcodegen` and `xunique`.
+- Copy `make` into your ios dir of your project.
+- Find the right project file for your RN version from `templates`.
+- Copy into your ios dir of your project and rename to `project.yml`.
+- Done. You can now run `./ios/make` to have your Xcode project generated.
+
+<Notes>
+the same way you would do with yarn install
+</Notes>
+
+---
+
+demo?
+
+
+<Notes>
   - npx react-native init MyProject --version 0.62.0
   - brew install xcodegen
   - we need to create a yml. there is an issue and pr to have this automated, but not yet there. you could grab the template i will make. per version
@@ -129,19 +169,25 @@ xcodegen makes this declarative. imagine project.yml is package.json and xcodepr
   - make file
   - touch MyProject/main.jsbundle
   - maybe a package.json script to run the xcodegen thing?
+</Notes>
 
+---
 
 
 
 - how do i use it with upgrades if its not supported
 go to my repo
 otherwise check the upgrade-helper xcodeproj diffs
-
-
 - how do i use it with upgrades if it is supported
 
+- adding a package with native code, how to link it with the yml.
+-also self made native code
+
+
+
+- show how xcode changes can be ported to yml
 - how do i do changes in xcode and save them in yml?
 
-- make a PR on react native? also pr for https://github.com/yonaskolb/XcodeGen/blob/master/Docs/Examples.md?
 
-- make a repo react-native-xcodegen and link to the talk repo, list the project.yml for all versions of RN, open issues.
+- make a PR on react native? we should remove xcodeproj from diffs. after that, or add a comment to just run ./ios/make. also pr for https://github.com/yonaskolb/XcodeGen/blob/master/Docs/Examples.md?
+
