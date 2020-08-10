@@ -10,6 +10,7 @@ import {
 import {check, PERMISSIONS, request} from 'react-native-permissions';
 
 import {Header, Colors} from 'react-native/Libraries/NewAppScreen';
+import BlueView from './BlueView';
 
 const App = () => {
   const [micStatus, setMicStatus] = useState(null);
@@ -33,6 +34,7 @@ const App = () => {
               request(PERMISSIONS.IOS.MICROPHONE).then(setMicStatus);
             }}
           />
+          <BlueView style={{width: 100, height: 100}} />
         </View>
       </ScrollView>
     </>

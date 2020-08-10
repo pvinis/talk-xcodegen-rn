@@ -10,6 +10,7 @@
 		030A0B9BE69FB65B20A56D63D832F65B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */; };
 		3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */; };
 		7D67DE68D44E39D646D62D24D30CD8CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F584960A869FB2AFA52C9E17C635E80B /* LaunchScreen.storyboard */; };
+		B1B2BFD6CB7DB8E7504FA79788A7B8A9 /* PVSBlueViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D7DB56EEB15E01A28ECDCFB9AA1E097 /* PVSBlueViewManager.m */; };
 		C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */; };
 		CBC376965554A7D301191477A0746D9F /* libPods-MyProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9A280F2B895C9C7D67BCC74E9A8EE5 /* libPods-MyProject.a */; };
 /* End PBXBuildFile section */
@@ -23,7 +24,9 @@
 		5EB1C0707F6AE098E4B3AD69EEEFF01B /* MyProject.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		629E7D80E48D5E745318C1EBD64EE907 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6D7DB56EEB15E01A28ECDCFB9AA1E097 /* PVSBlueViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PVSBlueViewManager.m; sourceTree = "<group>"; };
 		7694982B7F4B224EE25024621A726A35 /* Pods-MyProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyProject.release.xcconfig"; path = "Target Support Files/Pods-MyProject/Pods-MyProject.release.xcconfig"; sourceTree = "<group>"; };
+		7D54BB9AA52975962FC68DFCBB1CE86D /* PVSBlueViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PVSBlueViewManager.h; sourceTree = "<group>"; };
 		B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D4C0844F0EDFE628820A5C892C4FF3E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F584960A869FB2AFA52C9E17C635E80B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 				B620E4E4000C4BF074718A5434E55551 /* Images.xcassets */,
 				59E1ECD296F0F03D3A1548C5BF852AED /* Info.plist */,
 				F584960A869FB2AFA52C9E17C635E80B /* LaunchScreen.storyboard */,
+				7D54BB9AA52975962FC68DFCBB1CE86D /* PVSBlueViewManager.h */,
+				6D7DB56EEB15E01A28ECDCFB9AA1E097 /* PVSBlueViewManager.m */,
 				662B1E15BEDDA8E6B3AA5A4261C157E5 /* main.m */,
 			);
 			path = MyProject;
@@ -159,25 +164,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8E0EBEF6139A0A1B53E8BA4955CD3522 /* Start Packager */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			name = "Start Packager";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
-			showEnvVarsInLog = 0;
-		};
 		8D35FD00B391C5F920772258C1C4ACD5 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -198,6 +184,25 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E0EBEF6139A0A1B53E8BA4955CD3522 /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		AAAD096A769A281BB019879F2DA736A4 /* [CP] Copy Pods Resources */ = {
@@ -243,6 +248,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C54BBF139F1659E48C4F74F87017203D /* AppDelegate.m in Sources */,
+				B1B2BFD6CB7DB8E7504FA79788A7B8A9 /* PVSBlueViewManager.m in Sources */,
 				3DFEB82BBBFA4A999B8F9D9A78BA5829 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
