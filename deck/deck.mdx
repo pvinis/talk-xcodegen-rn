@@ -118,15 +118,15 @@ but it's definitely not as intuitive as `package.json`
 
 ### React Native `Core` and `Community` are working hard.
 
-Besides the many improvments and new features shipped, `tooling` has been getting better:
+Besides the many improvments and new features shipped, `tooling` has been getting better too:
 - `CocoaPods` was added, making manual `linking` a thing of the past.
 - `upgrade-helper` was created, making manual `upgrading` easier.
 
 ---
 
-I've had this idea for a while:
+I've had this `idea` for a while:
 
-Wouldn't it be nice if my Xcode project was more like `package.json`?
+Wouldn't it be nice if my `Xcode project` was more like `package.json`?
 
 ---
 
@@ -157,19 +157,8 @@ the same way you would do with yarn install
 
 ---
 
-demo?
+# Demo
 
-
-<Notes>
-  - npx react-native init MyProject --version 0.62.0
-  - brew install xcodegen
-  - we need to create a yml. there is an issue and pr to have this automated, but not yet there. you could grab the template i will make. per version
-  https://github.com/yonaskolb/XcodeGen/pull/735
-  https://github.com/pvinis/react-native-xcodegen
-  - make file
-  - touch MyProject/main.jsbundle
-  - maybe a package.json script to run the xcodegen thing?
-</Notes>
 
 ---
 
@@ -198,3 +187,7 @@ otherwise check the upgrade-helper xcodeproj diffs
 
 - make a PR on react native? we should remove xcodeproj from diffs. after that, or add a comment to just run ./ios/make. also pr for https://github.com/yonaskolb/XcodeGen/blob/master/Docs/Examples.md?
 
+  - we need to create a yml. there is an issue and pr to have this automated, but not yet there. you could grab the template i will make. per version
+  https://github.com/yonaskolb/XcodeGen/pull/735
+  https://github.com/pvinis/react-native-xcodegen
+  - maybe a package.json script to run the xcodegen thing?
