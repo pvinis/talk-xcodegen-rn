@@ -190,35 +190,100 @@ New way
 </Box>
 </Grid>
 
+https://github.com/pvinis/talk-xcodegen-rn/commit/8940952a5d046ea0ef2db856ed3418e9bcfa91e9
+
 ---
 
 ### Adding libraries 3/3
-No native code, nothing changes (just `yarn add the-pkg`).
-- With native code, nothing changes.
+Adding native code yourself, simple.
+
+- Create the `native` files `with or without` Xcode
+- Make sure they are in the `target`'s `sources` in `project.yml`
+- cd ios && `./make`
+
+https://github.com/pvinis/talk-xcodegen-rn/commit/90ff2d1ac34b34ad6b229c9b7b486e9e457f9a78
+https://github.com/pvinis/talk-xcodegen-rn/tree/master/code/MyProject/ios/MyProject
+https://github.com/pvinis/talk-xcodegen-rn/blob/master/code/MyProject/ios/project.yml
 
 ---
 
-Adding native code.
-Adding as usual. Just make sure the file is in the dir thats in the Sources part of yml.
+### How do I upgrade next time
 
+Look for `updated template` in https://github.com/pvinis/react-native-xcodegen.
+
+Otherwise check the `upgrade-helper` xcodeproj diffs for anything interesting.
+
+https://react-native-community.github.io/upgrade-helper/?from=0.62.2&to=0.63.0
+https://github.com/pvinis/talk-xcodegen-rn/commit/286c0f5b7a18b8a2b68db41e44c1702860f94173
 
 ---
 
+### Takeaways 1/3
 
-- how do i use it with upgrades if its not supported
-go to my repo
-otherwise check the upgrade-helper xcodeproj diffs
+XcodeGen is a great way to keep `complicated` upgrades `simple`.
+
+From https://github.com/react-native-community/upgrade-support/issues/13
+
+To https://github.com/pvinis/talk-xcodegen-rn/commit/286c0f5b7a18b8a2b68db41e44c1702860f94173#diff-5b58604e7164c95a2602ad5b5fab7235
+
+---
+
+### Takeaways 2/3
+
+Read the docs and specs of XcodeGen if you'd like to learn more.
+
+https://github.com/yonaskolb/XcodeGen/tree/master/Docs
+
+---
+
+### Takeaways 3/3
+
+XcodeGen has no way `right now` to generate a project.yml from an existing xcodeproj, but it is being `worked on`.
+
+That means when a new `Xcode setting` is changed, we need to look for the `right yml name` for it.
+
+`Or` grab the `latest template project.yml file` and merge it with any changes we `might already have`.
+
+https://github.com/yonaskolb/XcodeGen/pull/735
+
+https://github.com/pvinis/react-native-xcodegen
+
+---
+
+### Work to be done
+
+- Keep the templates `up-to-date` with the diffs and upgrade-helper
+- Make an `RFC` and a `PR` on react-native to add a `project.yml` to the init template
+
+---
+
+- Go set this up for `your project`
+- `Try` it out
+- Make `issues` for things that might not work for your project
+
+Find me on `twitter`.
+
+---
+
+<Split>
+
+<img src={myFace2} />
+
+## Thank you 💜
+
+- [twitter.com/pvinis](https://twitter.com/pvinis) (@ me)
+- [p0l.co/talk-xcodegen](https://p0l.co/talk-xcodegen) (this talk)
+- [p0l.co/rn-xcodegen](https://p0l.co/rn-xcodegen) (tempate files)
+- [artsy.net](https://artsy.net) (where I work)
+- [pvin.is](https://pvin.is) (my blog, 🚧)
+- [pavlos.dev](https://pavlos.dev) (my portfolio, 🚧)
+
+</Split>
 
 
-
-
-- show how xcode changes can be ported to yml (tvos?)
-- how do i do changes in xcode and save them in yml?
-
+<!--
 
 - make a PR on react native? we should remove xcodeproj from diffs. after that, or add a comment to just run ./ios/make. also pr for https://github.com/yonaskolb/XcodeGen/blob/master/Docs/Examples.md?
+- maybe a package.json script to run the xcodegen thing?
 
-  - we need to create a yml. there is an issue and pr to have this automated, but not yet there. you could grab the template i will make. per version
-  https://github.com/yonaskolb/XcodeGen/pull/735
-  https://github.com/pvinis/react-native-xcodegen
-  - maybe a package.json script to run the xcodegen thing?
+-->
