@@ -1,5 +1,5 @@
 import { Notes, Head, Footer, Appear, Split, useDeck } from 'mdx-deck'
-import { Box, Link, Flex, Styled } from 'theme-ui'
+import { Grid, Box, Link, Flex, Styled } from 'theme-ui'
 
 import { Counter } from './components/Counter'
 import { AboveFooter } from './components/AboveFooter'
@@ -159,11 +159,42 @@ the same way you would do with yarn install
 
 # Demo
 
+---
+
+### Adding libraries 1/3
+
+`No native` code, nothing changes.
+
+- yarn add ramda
 
 ---
 
-Adding libs like permissions.
-As usual.
+### Adding libraries 2/3
+
+`With native` code, tiny change.
+
+<Grid columns={2}>
+<Box>
+
+Old way
+- yarn add react-native-permissions
+- cd ios && `pod install`
+
+</Box>
+<Box>
+
+New way
+- yarn add react-native-permissions
+- cd ios && `./make`
+
+</Box>
+</Grid>
+
+---
+
+### Adding libraries 3/3
+No native code, nothing changes (just `yarn add the-pkg`).
+- With native code, nothing changes.
 
 ---
 
